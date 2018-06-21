@@ -1,5 +1,7 @@
 # Disc-Bot
 Repo for the discord bot.
+Description of Repo:
+  This repo is for practice with discord bots and Python programming. It is maintained by a group of friends who are studying Computer       Science at Indiana University. It may not look the prettiest but do not diss on it, for it is a work in progress. 
 
 Steps to clone this repo to your computer:
 1. You will need to download git on your computer. https://git-scm.com/downloads
@@ -27,3 +29,17 @@ Steps to clone this repo to your computer:
   - Open git bash and change your directory to that folder on your computer.
   - Type the following command into the bash ->git clone git@github.com:anexSozio/Disc-Bot.git<-
 5. You should now be done and have the files of the repo in that directory/folder.
+
+Steps to add an upstream to be able to push and commit to this repo. https://help.github.com/articles/fork-a-repo/
+1. Real easy
+  - Open git bash and change your directory to your local repo
+  - Type the following command ->git remote -v<- you should see two origin branches with fetch at the end and push as well.
+  - Type the following command ->git remote add upstream git@github.com:anexSozio/Disc-Bot.git<-
+  - Type the following command again to see if the upstream has been updated ->git remote -v<- now with two origins and 2 upstreams.
+
+Steps to pull/fetch from the repo. 
+1. Syncing your repo with the master branch of the repo
+  - Open git bash and change your directory to your local repo
+  - Type the following command ->git fetch upstream<-
+  - Then type the following command ->git checkout master<-
+  - Then finally ->git merge upstream/master<-
