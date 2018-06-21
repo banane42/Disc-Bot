@@ -1,5 +1,6 @@
 # Disc-Bot
 Repo for the discord bot.
+
 Steps to clone this repo to your computer:
 1. You will need to download git on your computer. https://git-scm.com/downloads
   - Once its downloaded run git bash (just look it up in windows search bar).
