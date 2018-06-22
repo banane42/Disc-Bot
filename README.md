@@ -37,7 +37,7 @@ Steps to add an upstream to be able to push and commit to this repo. https://hel
   - Type the following command ->git remote add upstream git@github.com:anexSozio/Disc-Bot.git<-
   - Type the following command again to see if the upstream has been updated ->git remote -v<- now with two origins and 2 upstreams.
 
-Steps to pull/fetch from the repo. 
+Steps to pull/fetch from the repo. https://help.github.com/articles/syncing-a-fork/
 1. Syncing your repo with the master branch of the repo
   - Open git bash and change your directory to your local repo
   - Type the following command ->git fetch upstream<-
